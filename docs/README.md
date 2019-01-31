@@ -8,6 +8,6 @@ Information contained herein is intended only for white hat purposes.  The inten
 # Contents #
 - [Tools](Tools.md)
   - [GenymotionSetup](GenymotionSetup.md)
-- [UsefulADBCommands](UsefulADBCommands.md)
+- [Useful ADB Commands](UsefulADBCommands.md)
 
 
