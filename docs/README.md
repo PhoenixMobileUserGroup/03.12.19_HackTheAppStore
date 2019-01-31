@@ -1,4 +1,4 @@
 # Contents #
-- [UsefulADBCommands](UsefulADBCommands)
+- [UsefulADBCommands](UsefulADBCommands.md)
 
 # Links #
