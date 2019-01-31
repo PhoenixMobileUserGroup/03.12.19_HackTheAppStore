@@ -4,22 +4,22 @@ Here's a checklist of things you'll need to get started (checked boxes are criti
 
 **Android Environment:**
 - [x] At least one of these (both recommended):
-  - Genymotion Emulator with Play Support
+  - [Genymotion Emulator with Play Support](#genymotion-emulator)
   - Rooted Android Device
-- [x] ADB Tools
+- [x] [ADB Tools](#adb-tools)
 
 **Reversing Tools:**
-- [x] Dex to Java Decompiler (jadx recommended)
-- [ ] Unity Reversing tools (DevX Studio)
-- [ ] ARM assembly reversing tools 
-- [ ] ILSpy for Xamarin
+- [x] [Dex to Java Decompiler (jadx recommended)](#jadx)
+- [ ] [Unity Reversing tools (DevX Studio)](#other-reversing-tools)
+- [ ] [ARM assembly reversing tools](#other-reversing-tools)
+- [ ] [ILSpy for Xamarin](#ilspy)
 
 **Other**
-- [x] Network Traffic Sniffer
+- [x] [Network Traffic Sniffer](#network-traffic-sniffers)
 - [x] A text editor of choice (if this wasn't a given, please pipe yourself to [/dev/null](devnull.md) to avoid future confusion)
 - [ ] Android Studio
 
-# GenyMotion Emulator #
+# Genymotion Emulator #
 Useful Android emulator.  Can easily be setup with GooglePlay support and ARM translation (Marshmallow).
 
 [ref: [https://www.genymotion.com](https://www.genymotion.com)]
@@ -40,7 +40,7 @@ ADB tools will be absolutely critical so you can access the Emulator or physical
 Instructions are not provided here for installing, but Android Studio will come with ADB tools and is a straight forward install.
 
 
-# JADX OSX #
+# JADX #
 JADX is a valuable Dex to Java decompiler.  It also comes with a handy GUI that can be used to browse sorces and generate an Android Studio project. 
 
 ## Setup ##
