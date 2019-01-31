@@ -11,7 +11,7 @@ Overview:
 
 
 ## Step: Install Genymotion ##
-First and foremost, navigate to the (Genymotion site)[https://www.genymotion.com] and grab the freeware version.
+First and foremost, navigate to the [Genymotion site] (https://www.genymotion.com) and grab the freeware version.
 
 Run through the install instructions
 
@@ -22,7 +22,7 @@ Launch Geny motion and create a new emulator (+ button).
 
 Set the filters to drill down to a Samsung S6 with 6.0.0.
 
-[logo]: img/Screenshot_Geny_Virtual-device-creation-wizard.png
+![Screenshot_Geny_Virtual-device-creation-wizard](img/Screenshot_Geny_Virtual-device-creation-wizard.png)
 
 Select the correct emulator and click 'Next'.  Provide a name and 'Next' again.
 
