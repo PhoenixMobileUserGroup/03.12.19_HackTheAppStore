@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config xmlns:android="http://schemas.android.com/apk/res/android">
+    <domain-config>
+        <domain includeSubdomains="true">github.com</domain>
+        <pin-set>
+            <!--*.github.com-->
+            <pin digest="SHA-256">y2HhTRXXLdmAF1esYBb/muQUl3BIBdmEB8jUvMrGc28=</pin>
+            <!--Root CA-->
+            <pin digest="SHA-256">WoiWRyIOVNa9ihaBciRSC7XHjliYS9VwUGOIud4PB18=</pin>
+        </pin-set>
+
+        <trustkit-config enforcePinning="true">
+            <report-uri>https://march2019-neudesic-ug-api.azurewebsites.net/api/TrustKitReport</report-uri>
+        </trustkit-config>
+    </domain-config>
+</network-security-config>
