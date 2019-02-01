@@ -9,5 +9,5 @@ Information contained herein is intended only for white hat purposes.  The inten
 - [Tools](Tools.md)
   - [GenymotionSetup](GenymotionSetup.md)
 - [Useful ADB Commands](UsefulADBCommands.md)
-
+- [TrustKit](TrustkitSampleApp.md)
 
