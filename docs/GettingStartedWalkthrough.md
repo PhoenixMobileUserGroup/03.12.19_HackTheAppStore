@@ -48,10 +48,7 @@ You can run the `adb install` command for each of the sample apps.
 
 Alternatively, ensure that the apk files are in a directory by themselves.  From terminal, navigate to that directory and run the following:
 ```bash
-for i in `ls`;
-do
-	adb install $i
-done
+for i in `ls`; do adb install $i; done
 ```
 
 You shoud see 5 success messages.
