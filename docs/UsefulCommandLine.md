@@ -10,13 +10,11 @@ The following script can be used to zip align and sign an unsigned APK.  Make su
 name=unpinned
 
 # Android signing from command line
-originalApk=$name.apk
+unsignedApk=$name.apk
 signedApk=$name.signed.apk
 
-mv $originalApk $unsignedApk
-
 $ANDROID_HOME/build-tools/26.0.2/zipalign -f -v 4 $unsignedApk $signedApk
-$ANDROID_HOME/build-tools/26.0.2/apksigner sign --ks Distribution/ug_shared $signedApk
+$ANDROID_HOME/build-tools/26.0.2/apksigner sign --ks ../../../gh/src/Distribution/ug_shared $signedApk
 >NQM7i2m}q8.
 
 ```
