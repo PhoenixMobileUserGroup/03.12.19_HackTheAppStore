@@ -6,14 +6,12 @@ Back to [Main](README.md)
 The following script can be used to zip align and sign an unsigned APK.  Make sure to replace the variables before running:
 
 ```
-# Android signing from command line
-original=base
-prefix=com.ChrisMyers.UnsecureApp
-new=$prefix$original
+#set these values
+name=unpinned
 
-originalApk=$original.apk
-unsignedApk=$new-unsigned.apk
-signedApk=$new.apk
+# Android signing from command line
+originalApk=$name.apk
+signedApk=$name.signed.apk
 
 mv $originalApk $unsignedApk
 
