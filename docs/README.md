@@ -12,3 +12,4 @@ Information contained herein is intended only for white hat purposes.  The inten
 - [Useful Command Line](UsefulCommandLine.md)
 - [TrustKit](TrustkitSampleApp.md)
 - [Presentation Powerpoint](Presentation2.pptx)
+- [Getting Started - Demo Walkthrough](GettingStartedWalkthrough.md)
