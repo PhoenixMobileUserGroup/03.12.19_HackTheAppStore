@@ -11,4 +11,4 @@ Information contained herein is intended only for white hat purposes.  The inten
 - [Useful ADB Commands](UsefulADBCommands.md)
 - [Useful Command Line](UsefulCommandLine.md)
 - [TrustKit](TrustkitSampleApp.md)
-
+- [Presentation Powerpoint](Presentation2.pptx)
